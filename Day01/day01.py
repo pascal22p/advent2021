@@ -12,10 +12,12 @@ input = numpy.loadtxt("input")
 ## Part 1
 # test
 print("Test part 1 result: %d"%count_increase(test_input))
-
+# result
 print("Part 1 Result: %d"%count_increase(input))
 
 
+## Part 2
+# test
 print("Test part 2 result: %d"%count_increase(sliding_window(test_input)))
-
+# result
 print("Part 2 Result: %d"%count_increase(sliding_window(input)))
